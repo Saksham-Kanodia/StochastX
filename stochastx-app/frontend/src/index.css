@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #07090e;
+  color: #f8fafc;
+  font-family: system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,8 @@
+yfinance
+statsmodels
+scikit-learn
+xgboost
+pandas
+numpy
+fastapi
+uvicorn
