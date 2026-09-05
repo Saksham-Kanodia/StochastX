@@ -46,6 +46,10 @@ class BacktestRequest(BaseModel):
     fee_bps: float = 5.0
     calibration_window: int = 252
 
+@app.get("/")
+def root_health_check():
+    return {"status": "online", "service": "StochastX Quant Engine v2.0"}
+
 @app.get("/api/tickers")
 def get_tickers():
     if "prices" not in DATA_CACHE:
